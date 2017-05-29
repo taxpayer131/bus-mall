@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
 'use strict'
 var productImages = [];
 =======
@@ -8,14 +7,8 @@ var productImages = [];
 var percentChart = [];
 var globalClicks = 0;
 >>>>>>> 59dff152b737817d920a6e5b63fe2f3152fbce2e
-=======
-'use strict'
-var productImages = [];
->>>>>>> 0f616f947c766095d04389dab3b4122302402782
+
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 0f616f947c766095d04389dab3b4122302402782
     productImages.push(this);
 }
 var bag = new Products('R2D2Luggage', 'img/bag.jpg');
@@ -43,7 +36,6 @@ var imageAppear = function(){
     productImageOne.src = productImages[img1].filePath;
     var productImageTwo = document.getElementById('imageTwo');
     var img2 = imgRandom();
-<<<<<<< HEAD
 =======
     this.clickTotal = 0;
     this.timesDisplayed = 0;
@@ -96,13 +88,7 @@ var imageAppear = function(){
     productImages[img1].timesDisplayed ++;
     img2 = imgRandom();
 >>>>>>> 59dff152b737817d920a6e5b63fe2f3152fbce2e
-=======
->>>>>>> 0f616f947c766095d04389dab3b4122302402782
-    while (img1 === img2) {
-        img2 = imgRandom();
-    };
-    productImageTwo.src = productImages[img2].filePath;
-<<<<<<< HEAD
+
 <<<<<<< HEAD
     var productImageThree = document.getElementById('imageThree');
     var img3 = imgRandom();
@@ -110,18 +96,8 @@ var imageAppear = function(){
     productImages[img2].timesDisplayed ++;
     img3 = imgRandom();
 >>>>>>> 59dff152b737817d920a6e5b63fe2f3152fbce2e
-=======
-    var productImageThree = document.getElementById('imageThree');
-    var img3 = imgRandom();
->>>>>>> 0f616f947c766095d04389dab3b4122302402782
-    while (img1 === img2 || img2 === img3 || img3 === img1) {
-        img3 = imgRandom();
-    };
-    productImageThree.src = productImages[img3].filePath;
+    
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 0f616f947c766095d04389dab3b4122302402782
 }
 imageAppear();
 
@@ -136,7 +112,6 @@ function handleClick(){
 imageOne.addEventListener('click', handleClick);
 imageTwo.addEventListener('click', handleClick);
 imageThree.addEventListener('click', handleClick);
-<<<<<<< HEAD
 =======
     productImages[img3].timesDisplayed ++;
 }
@@ -248,5 +223,3 @@ var handleLSClear = function() {
 
 clearLS.addEventListener('click', handleLSClear);
 >>>>>>> 59dff152b737817d920a6e5b63fe2f3152fbce2e
-=======
->>>>>>> 0f616f947c766095d04389dab3b4122302402782
